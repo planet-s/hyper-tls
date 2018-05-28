@@ -13,9 +13,9 @@ documentation = "https://docs.rs/hyper-tls"
 bytes = "0.4"
 futures = "0.1.21"
 native-tls = "0.1"
-hyper = "0.12"
-tokio-io = "0.1"
-tokio-tls = { version = "0.1.4", default-features = false }
+hyper = { git = "https://github.com/redox-os/hyper" }
+tokio-io = { git = "https://github.com/redox-os/tokio" }
+tokio-tls = { git = "https://github.com/redox-os/tokio-tls", default-features = false }
 
 [dev-dependencies]
-tokio = "0.1.5"
+tokio = { git = "https://github.com/redox-os/tokio" }
